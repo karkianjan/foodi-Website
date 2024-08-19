@@ -1,0 +1,962 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anjan {
+    margin: 20px;
+}
+
+body {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.fixed {
+    width: 90%;
+    margin: 40px;
+}
+
+.container {
+    padding-left: 40px;
+}
+
+
+
+.container .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .navbar .logo .logo1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .navbar .logo .logo1 .oodi {
+    padding-top: 16px;
+}
+
+.container .navbar .logo .logo1 .rect {
+    position: absolute;
+}
+
+.container .navbar .logo .logo1 .f {
+    position: relative;
+    margin: 10px;
+}
+
+.container .navbar .bar {
+    align-self: center;
+}
+
+.container .navbar .bar li {
+    list-style: none;
+    display: inline;
+    padding: 40px;
+}
+
+.container .navbar .bar li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .navbar .bar li select {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.container .navbar .bar .home {
+    color: #39db4a;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .navbar .seatact {
+    align-self: flex-end;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .navbar .seatact li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.container .navbar .seatact li a {
+    text-decoration: none;
+}
+
+.container .navbar .seatact .search {
+    width: 32px;
+    height: 32px;
+}
+
+.container .navbar .seatact .sea {
+    display: flex;
+    align-items: center;
+}
+
+.container .navbar .call {
+    border-radius: 40px;
+    background: #39db4a;
+    width: 179px;
+    height: 60px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .navbar .cont {
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 .description .head span {
+    color: #39db4a;
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 145.523%;
+}
+
+.container2 .description {
+    margin-top: 50px;
+}
+
+.container2 .description .head h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 145.523%;
+    /* 90.224px */
+}
+
+.container2 .description .paragraph p {
+    width: 400px;
+    color: #4a4a4a;
+    font-family: Inter;
+    font-size: 15px;
+    margin-top: 57px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170.5%;
+    /* 44.33px */
+}
+
+.container2 .description .button1 {
+    display: flex;
+    width: 500px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container2 .description .button1 .order {
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    margin: -20px;
+    padding: 12px 30px;
+    background: #39db4a;
+    box-shadow: -2px 22px 38px 0px rgba(142, 255, 154, 0.5);
+}
+
+.container2 .description .button1 .order a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container2 .description .button1 .watch {
+    color: #4d4d4d;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.container2 .description .button1 .play {
+    display: flex;
+}
+
+.container2 .description .button1 .play .cir {
+    position: absolute;
+}
+
+.container2 .description .button1 .play .poly {
+    position: relative;
+    margin: 34px 0 0 58px;
+}
+
+.container2 .poster {
+    /* margin-right: 10px; */
+    /* width: 500px; */
+}
+
+.container2 .poster .photo1 .hot {}
+
+.container2 .poster .photo1 .hot .hot1 h1 {
+    margin-top: 20px;
+    position: relative;
+    color: #ff6868;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.container2 .poster .photo1 .hot .hot1 {
+    position: absolute;
+    width: 200px;
+    height: 67px;
+    margin-top: 10px 0 0 10px;
+    background-color: #fbfbfb;
+    filter: drop-shadow(26px 22px 51px rgba(0, 0, 0, 0.14));
+}
+
+.container2 .poster .photo1 .p1 {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.container2 .poster .photo1 .p2 {
+    position: relative;
+}
+
+.container2 .poster .photo1 .p3 {
+    position: relative;
+    width: 220px;
+    height: 67px;
+    margin-top: 30px;
+}
+
+.container2 .poster .banner {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 50px;
+}
+
+.container2 .poster .banner .noodles {
+    position: relative;
+    display: flex;
+
+    justify-content: space-around;
+    width: 235px;
+    height: 109px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 7px 35px 51px 0px rgba(0, 0, 0, 0.14);
+}
+
+.container2 .poster .banner .noodles .img2 {
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-radius: 25%;
+    width: 90px;
+    height: 105px;
+}
+
+.container2 .poster .banner .noodles .info {
+    margin: auto;
+}
+
+.container2 .poster .banner .noodles .info img {
+    margin-top: 10px;
+}
+
+.container2 .poster .banner .noodles .info h4 {
+    color: #2c2c2c;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container2 .poster .banner .noodles .info .price {
+    display: flex;
+}
+
+.container2 .poster .banner .noodles .info .price h4 {
+    color: #ff7979;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-end;
+}
+
+.container2 .poster .banner .noodles,
+.salad .info .price h5 {
+    color: #515151;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container2 .poster .banner .salad {
+    position: relative;
+    display: flex;
+
+    justify-content: space-around;
+    width: 235px;
+    height: 109px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 7px 35px 51px 0px rgba(0, 0, 0, 0.14);
+}
+
+.container2 .poster .banner .salad .img2 {
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-radius: 25%;
+    width: 90px;
+    height: 105px;
+}
+
+.container2 .poster .banner .salad .info {
+    margin: auto;
+}
+
+.container2 .poster .banner .salad .info img {
+    margin-top: 10px;
+}
+
+.container2 .poster .banner .salad .info h4 {
+    color: #2c2c2c;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container2 .poster .banner .salad .info .price {
+    display: flex;
+}
+
+.container2 .poster .banner .salad .info .price h4 {
+    color: #ff7979;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-end;
+}
+
+.container2 .poster .banner .salad .info .price h5 {
+    color: #515151;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cont2 h3 {
+    color: #ff6868;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container3 h2 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container3 .fooditems {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3 .fooditems .maindish {
+    margin-top: 50px;
+    width: 226px;
+    height: 226px;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container3 .fooditems .maindish .epli {
+    position: absolute;
+    margin: 15px 0 0 35px;
+}
+
+.container3 .fooditems .maindish .burger {
+    position: relative;
+    margin: 30px 0 0 48px;
+    background: #c1f1c6;
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+.container3 .fooditems .maindish h6 {
+    margin-top: 25px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container3 .fooditems .maindish p {
+    color: #555;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container4 h3 {
+    margin-top: 150px;
+    margin-left: 50px;
+    color: #ff6868;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.container4 .heading {
+    /* width: 580px; */
+    margin-left: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 .heading h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.523%;
+    /* 78.914px */
+}
+
+.container4 .heading .sign {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container4 .heading .sign .left {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background: #efefef;
+}
+
+.container4 .heading .sign .left img {
+    margin-top: 30px;
+}
+
+.container4 .heading .sign img {
+    margin: 6px 0 0 32px;
+}
+
+.container4 .ourmenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.salad1 .corner {
+    width: 77px;
+    height: 65px;
+    border-radius: 0px 37.5px 0px 42.5px;
+    background: #39db4a;
+    float: right;
+}
+
+.salad1 .corner img {
+    margin: 20px 0 0 30px;
+}
+
+.container4 .ourmenu .salad1 {
+    width: 340px;
+    height: 375px;
+    margin-top: 63px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 2px 9px 42px 0px rgba(0, 0, 0, 0.08);
+}
+
+.container4 .ourmenu .salad1 .content11 #img1 {
+    margin: 16px 0 0 60px;
+}
+
+.container4 .ourmenu .salad1 .content11 h2 {
+    padding-top: 15px;
+    margin-left: 60px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container4 .ourmenu .salad1 .content11 h6 {
+    padding-top: 15px;
+    margin-left: 60px;
+    color: #555;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container4 .ourmenu .salad1 .content11 .price1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 17px;
+}
+
+.container4 .ourmenu .salad1 .content11 .price1 p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container4 .ourmenu .salad1 .content11 .price1 .rating {
+    display: flex;
+    gap: 5px;
+}
+
+.container4 .ourmenu .salad1 .content11 .price1 p span {
+    color: #ff6868;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container4 .ourmenu .salad1 .content11 .price1 h5 {
+    color: #454545;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container5 {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.container5 .c1 {}
+
+.container5 .img4 {
+    position: absolute;
+}
+
+.container5 .chef {
+    width: 45%;
+    position: absolute;
+    margin-top: 21.8em;
+    margin-right: 20px;
+    width: 450px;
+    height: 362px;
+
+    border-radius: 140px 140px 41px 41px;
+    background: #53ec62;
+}
+
+.container5 .best {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    color: #202020;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 34em 0 0 16em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: #d6d2d2;
+    filter: drop-shadow(7px 14px 43px rgba(0, 0, 0, 0.14));
+}
+
+.container5 .aboutchef {
+    width: 45%;
+    margin-top: 100px;
+}
+
+.container5 .aboutchef p {
+    color: #ff6868;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.container5 .aboutchef h1 {
+    margin-top: 57px;
+    width: 620px;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 131.023%;
+    /* 78.614px */
+}
+
+.container5 .aboutchef h5 {
+    margin-top: 30px;
+    width: 655px;
+    color: #555;
+    font-family: Inter;
+    font-size: 20spx;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159%;
+    /* 41.34px */
+}
+
+.container5 .aboutchef .collection {
+    margin-top: 50px;
+    display: flex;
+}
+
+.container5 .aboutchef .collection .photos img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    fill: #d9d9d9;
+    border-radius: 100px;
+    stroke-width: 6px;
+    stroke: #fff;
+    margin-right: -30px;
+}
+
+.container5 .aboutchef .collection .feedback {
+    margin-left: 47px;
+}
+
+.container5 .aboutchef .collection .feedback .rate {
+    display: flex;
+    margin-top: 15px;
+}
+
+.container5 .aboutchef .collection .feedback .rate h3 {
+    color: #454545;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container5 .aboutchef .collection .feedback .rate h6 {
+    color: #807e7e;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.container6 {
+    margin-top: 18em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container6 .storyservices {
+    width: 45%;
+    margin-top: 3em;
+}
+
+.container6 .storyservices h2 {
+    color: #ff6868;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.container6 .storyservices h1 {
+    color: #000;
+    margin-top: 53px;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container6 .storyservices p {
+    color: #555;
+    margin-top: 1.8em;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 41.6px */
+}
+
+.container6 .storyservices button {
+    width: 160px;
+    height: 60px;
+    margin-top: 1.5em;
+    border-radius: 40px;
+    background: #39db4a;
+    border-color: #39db4a;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container6 .cards {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container6 .cards .p1 .top,
+.container6 .cards .p2 .top {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container6 .cards .catering {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    height: 265.145px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 7px 12px 43px 0px rgba(0, 0, 0, 0.14);
+}
+
+.container6 .cards .catering h3 {
+    color: #5fe26c;
+    margin-top: 32px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container6 .cards .catering p {
+    color: #90bd95;
+    margin-top: 17px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lastcontainer {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+
+}
+
+.lastcontainer {
+    display: flex;
+    /* gap: 100px; */
+}
+
+.lastcontainer .links h3,
+.contact-us h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.lastcontainer .links p,
+.contact-us p {
+    color: #555;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.lastcontainer .logo p {
+    color: #555;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2;
+    /* 36.125px */
+}
+
+.lastcontainer .logo .logo1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lastcontainer .logo .logo1 .oodi {
+    padding-top: 16px;
+}
+
+.lastcontainer .logo .logo1 .rect {
+    position: absolute;
+}
+
+.lastcontainer .logo .logo1 .f {
+    position: relative;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+    margin: 30px;
+    width: 90%;
+}
+
+footer .so-media {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer .so-media .fb {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #39db4a;
+    border: 1px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+footer .so-media .insta,
+.twit,
+.youtube {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #edffef;
+    border: 1px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+footer .so-media .fb img {
+    margin: 8px 0 0 15px;
+}
+
+footer .so-media .insta img,
+.twit img,
+.youtube img {
+    margin: 12px 0 0 10px;
+}
+
+footer .copy {
+    color: #555;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
